@@ -3,7 +3,7 @@
 # Declare name/value pairs to be passed into your templates.
 # name: value
 
-ServiceType: NodePort
+ServiceType: LoadBalancer
 Image: judexzhu/nginx-test
 Imagetag: 'latest'
 Replicas: 3
